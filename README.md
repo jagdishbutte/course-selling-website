@@ -30,7 +30,13 @@ cd course-selling-website
 npm install
 ```
 
-4. Create a .env file in the root directory based on .env.example and add the required environment variables.
+4. Create a `.env` file in the root directory and paste the following code into it. Replace the placeholders with your actual secrets inside double quotes (`""`):
+
+```.env
+MONGODB_URI=""
+JWT_USER_PASSWORD=""
+JWT_ADMIN_PASSWORD=""
+```
 
 5. Start the server:
 ```bash
